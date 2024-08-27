@@ -87,6 +87,7 @@ Two critic models take (s, a) and return two Q-Values
 ### Step 10: Compute the Critic loss 
 
 We compute the critic loss using the Q-values returned from the Critic model networks.
+
 $$
 Critic\ Loss = MSE(Q1(s,a),Qt) + MSE(Q2(s,a),Qt)
 $$
@@ -104,6 +105,7 @@ Once every two iterations, we update our Actor Model by performing gradient asce
 We soft update our actor target network using Polyak averaging. It is delayed and done after every two actor model update.
 
 Polyak Averaging: 
+
 $$
 \theta' = \tau\theta + (1-\tau)\theta
 $$
@@ -114,6 +116,7 @@ This way our target comes closer to our model.
 ### Step 14: Update Critic Target 
 
 We soft update our critic target network along with our Actor Target using Polyak averaging.
+
 $$
 \phi' = \tau \phi + (1-\tau)\phi'
 $$
