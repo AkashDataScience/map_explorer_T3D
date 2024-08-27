@@ -24,7 +24,7 @@ paper. The T3D builds on Double Q-learning, by taking the minimum value between 
 limit over estimation. It delays the policy update to reduce per-update error and further improve 
 performance. 
 
-## :flight_departure: Implementation Details
+## :flight_departure: Implementation Steps
 ### Step 1: Defining Replay memory:
 
 A replay memory holds the experience of an agent while traversing through the environment. It
@@ -73,6 +73,7 @@ outputs.
 ### Step 8: Target value Computation
 
 We use the target_Q computed in the last code block in the Bellman's equation as below:
+
 $$
 \begin{align*}
 Qt = r + \gamma * min(Qt1, Qt2)
