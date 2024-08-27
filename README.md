@@ -152,6 +152,10 @@ python map.py
 Akash Shah - akashmshah19@gmail.com  
 Project Link - [ERA V2](https://github.com/AkashDataScience/ERA-V2/tree/master)
 
+## Acknowledgments
+This repo is developed using references listed below:
+* [Addressing Function Approximation Error in Actor-Critic Methods](https://arxiv.org/pdf/1802.09477)
+
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/akash-m-shah/
