@@ -129,7 +129,7 @@ git clone https://github.com/AkashDataScience/map_explorer_T3D
 ```
 2. Go inside folder
 ```
- cd map_explorer
+ cd map_explorer_T3D
 ```
 3. Install dependencies
 ```
